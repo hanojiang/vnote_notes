@@ -1,6 +1,6 @@
-# 1. using_note
+# using_note
 
-## 1.1. 启动时出现黑屏现象或是如下警告
+## 启动时出现黑屏现象或是如下警告
 
 警告: MATLAB 先前因底层图形错误而崩溃。为避免在此会话期间再次崩溃，MATLAB 将使用软件 OpenGL 而不再使用图形硬件。要保存该设置以供此后的会话使用，请使用 opengl('save', 'software') 命令。有关详细信息，请参见解决底层的图形问题。
 
@@ -15,3 +15,5 @@ opengl('save', 'software')
 ```doc
 matlab -r opengl('save', 'software')
 ```
+
+## 统计向量中元素个数
