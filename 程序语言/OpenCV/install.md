@@ -7,6 +7,8 @@
 
 ## cmake 配置
 
+目的是通过cmakelist 生成Makefile
+
 * 配置vs编译器 选择vs2015 win64 ，点击finish 开始第一次配置
 * 添加不同配置选项，如example -> c、python example; module -> contrib module 路径;python -> 版本选择，python3.5等，点击configure 开始第二次配置。
 * 点击generate 开始生成项目
