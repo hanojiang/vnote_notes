@@ -11,7 +11,9 @@
                 "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
                 "D:/Program Files/LLVM/include",
                 "D:/Program Files/LLVM/x86_64-w64-mingw32/include",
-                "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"
+                "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed",
+                "G:/Program Files/MATLAB/R2018a/extern/include"
+
             ],
             "defines": [
                 "_DEBUG",
@@ -28,7 +30,8 @@
                     "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include",
                     "D:/Program Files/LLVM/include",
                     "D:/Program Files/LLVM/x86_64-w64-mingw32/include",
-                    "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"
+                    "D:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed",
+                    "G:/Program Files/MATLAB/R2018a/extern/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
