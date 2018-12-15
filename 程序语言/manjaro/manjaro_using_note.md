@@ -33,6 +33,12 @@ sudo pacman -S  archlinuxcn-keyring
     sudo pacman -S fcitx-configtool
     sudo pacman -S fcitx-sogoupinyin
 ```
+修改 ~/.xprofile 文件
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+解决候选框乱码问题，使用命令
+sudo rm -rf SogouPY* sogou*
 
 记得重启系统
     
