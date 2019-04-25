@@ -30,15 +30,16 @@ void findlines(int8_t * data, int8_t * lines, int len)
 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 {
     int len = mxGetM(prhs[0]);
-
+    mxprintf("%d", len);
     int8_t *data = (int8_t *)mxGetData(prhs[0]);
-    plhs[0]  = mxCreateNumericArray (1, len, mxINT8_CLASS, mxREAL);
+    const mwSize * ms = mxGetDimensions(prhs[0]);
+    plhs[0]  = mxCreateNumericArray (2, ms, mxINT8_CLASS, mxREAL);
 
     int8_t *lines;
     lines=(int8_t *)mxGetData(plhs[0]);
 
     findlines(data, lines, len);
-    
+
 
     // double *data;
     // int8_t * lines;
