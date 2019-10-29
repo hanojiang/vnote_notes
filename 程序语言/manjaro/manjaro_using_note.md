@@ -22,8 +22,6 @@ sudo vi /etc/pacman.conf
 SigLevel = Optional TrustedOnly
 Server = http://repo.archlinuxcn.org/$arch
 ```
-<<<<<<< HEAD
-=======
 记得添加秘钥
 sudo pacman -S  archlinuxcn-keyring
 参考链接:https://www.jianshu.com/p/80d0ec113c0a
@@ -84,6 +82,5 @@ tlmgr option repository https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texliv
 tlmgr update --self --all 更新
 ## 安装texstudio
 
->>>>>>> 14d83d9ed2ccc177fb1b85ce006e57c5b84c6039
 
 参考链接: https://www.jianshu.com/p/80d0ec113c0a
