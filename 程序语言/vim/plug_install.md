@@ -79,7 +79,7 @@ Tht ycmd server SHUT DOWN (restart with ':YcmRestartServer'). YCM core library..
 #Debian(vim-plug):
 su
 aptitude install cmake python3-dev build-essential
-python3 /home/你的用户名/.vim/plugged/YouCompleteMe/install.py
+python3 /home/你的用户名/.vim/plugged/YouCompleteMe/install.py --clang-completer
 #Manjaro(vim-plug):
 su
 pacman -S cmake python-dev
@@ -88,7 +88,7 @@ python3 /home/你的用户名/.vim/plugged/YouCompleteMe/install.py --clang-comp
 
 最后，确保正常使用，需要在 .vimrc 中加入
 
-let g:ycm_global_ycm_extra_conf='~/.vim/plugged/YouCompleteMe/third_party/ycmd/.ycm_extra_conf
+let g:ycm_global_ycm_extra_conf='~/.vim/plugged/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py’
 
 这是全局的YCM配置文件，可以再自己的项目文件中复制，自定义，减小配置文件大小，并在打开vim 时导入。
 
